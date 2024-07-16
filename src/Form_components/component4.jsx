@@ -14,7 +14,7 @@ const Component4 = () => {
     <h3>Do you want to Add Photo</h3>
     <div style={{display:"flex", gap:"20px", justifyContent:"center", alignItems:"center"}}>
     <Button type='primary' onClick={showModal}>YES</Button>
-    <Button type='primary'>NO----</Button>
+    <Button type='primary'>NO</Button>
     </div>
     </div>
     <Modal title="Basic Modal" style={{textAlign:"center"}} open={isModalOpen} footer={null} onCancel={handleCancel}>
